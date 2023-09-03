@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+section.part-1 {
+  white-space: nowrap;
+  background-color: rgb(84, 96, 106);
+  color: white;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  margin: auto;
+  color: white;
+  white-space: nowrap;
+}
+nav {
+  margin-inline: auto;
+}
+ul.nav {
+  display: flex;
+  list-style-type: none;
+}
+ul.nav > li {
+  padding: 1rem;
+}
+ul.nav li > a {
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+}
+a.blue-btn {
+  background-color: blue;
+  padding: 0.5em;
+}
+ul.nav li > a:hover {
+  text-decoration: underline;
+  color: bisque;
+}
+ul.nav li > a.blue-btn:hover {
+  color: antiquewhite;
+  background-color: rgba(0, 0, 255, 0.748);
+  text-decoration: none;
+}
+
+div.center-content {
+  width: 50%;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  margin-inline: 5rem 7rem;
+  display: inline-block;
+}
+h1 {
+  margin-top: 2rem;
+  font-size: 6em;
+}
+h2 {
+  margin-top: 10px;
+  font-size: 2.5em;
+  font-weight: 100;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+p {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+p.p1 {
+  margin-top: 2rem;
+}
+
+button#click {
+  margin-top: 2rem;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.268);
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  margin-top: 3.5rem;
+  font-size: 1rem;
+}
+button#click:hover {
+  border-color: white;
+}
+
+img {
+  background-image: url(./image/Fallback-Image.jpg);
+  background-size: cover;
+}
+
+img#image-1 {
+  margin-bottom: 1rem;
+}
+img#image-2 {
+  position: absolute;
+  z-index: 1;
+  top: 7rem;
+  right: 3rem;
+}
+
+ul.carousel-list {
+  display: inline-block;
+  margin-left: 12.5rem;
+  font-size: 1.2rem;
+  color: rgba(250, 235, 215, 0.252);
+}
+
+li:nth-child(2) {
+  color: rgba(250, 235, 215, 0.634);
+}
+
+ul.carousel-list li:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+/* NOTE: part 2 */
+
+section.part-2 {
+  height: 80vh;
+}
+section.part-2 h2 {
+  text-align: center;
+  margin-block: 2em;
+}
+div.flex-card {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3.card-heading {
+  text-align: center;
+  color: #000;
+  font-size: 2.6em;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+article.card {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+h3.card-heading + p {
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+button.icon {
+  position: absolute;
+  top: 0.3rem;
+  right: 19rem;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 40px;
+  height: 40px;
+  text-decoration: underline;
+}
+
+button.icon:hover {
+  background-color: bisque;
+}
+
+div.flex-card + button {
+  display: block;
+  margin-inline: auto;
+  padding: 1em;
+  width: 150px;
+  color: white;
+  background-color: rgb(46, 46, 169);
+  border-radius: 20px;
+  box-shadow: 0px 0px 1px black;
+}
+div.flex-card + button:hover {
+  background-color: rgba(46, 46, 169, 0.928);
+  box-shadow: 0 0 5px black;
+}
+
+/* NOTE: part-3 */
+
+section.part-3 {
+  background-color: rgba(211, 211, 211, 0.545);
+  padding-bottom: 1.5em;
+}
+
+section.part-3 h2 {
+  text-align: center;
+  padding-top: 1.2em;
+  margin-bottom: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.div-image {
+  position: relative;
+  margin-top: 5em;
+  margin-left: 5em;
+}
+
+#image-4 {
+  position: absolute;
+  top: 5em;
+  left: 10em;
+}
+
+.div-grid-content {
+  width: 400px;
+  margin-right: 3em;
+}
+
+article.grid-card img {
+  background-image: url(./image/Fallback-Image.jpg);
+  background-size: cover;
+}
+article.grid-card {
+  position: relative;
+  margin-top: 2em;
+}
+article.grid-card h3,
+.grid-card p {
+  margin-block: 1em;
+  color: black;
+}
+article.grid-card p {
+  text-align: justify;
+}
+
+.grid-card img {
+  position: absolute;
+  top: -1em;
+  left: -5.5em;
+}
+
+.hello{
+  background-color: #000;
+}
